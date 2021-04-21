@@ -1,0 +1,28 @@
+.middle{
+    
+    margin:0 auto;
+    width:100%;
+    height:700px;
+    position:fixed;
+ 
+    display:inline-block;
+
+}
+.empty_warning{
+    
+    width:800px;
+    text-align: center;
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 40px;
+    display:inline-block;
+}
+
+.center_page{
+    margin:0 auto;
+    width:1000px;
+    height:94vh;
+    overflow:auto;
+    
+    
+}

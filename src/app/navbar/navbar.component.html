@@ -1,0 +1,13 @@
+<div class="toolbar" role="banner">
+    
+    <img [routerLink]="['/']" class="top-logo"
+      src="../assets/logo-small.png"
+    />
+    <span class="nav-title" [routerLink]="['/watchlist']">Stocks Watchlist</span>
+    <div class="search"><app-ticker-search></app-ticker-search></div>
+      <div class="spacer"></div>
+     <!-- <a class="nav-right" [routerLink]="['/login']">Login</a> -->
+      <a class="nav-right" (click)="changeUser(1)"[routerLink]="['/']">User1 </a>
+      <a class="nav-right" (click)="changeUser(2)"[routerLink]="['/']">User2</a>
+      
+  </div>

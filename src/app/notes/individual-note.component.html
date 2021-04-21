@@ -1,0 +1,8 @@
+<div class="container note-display">
+    <div *ngIf="!self" class="blue">
+        <span>{{name}}: {{message}}</span>
+    </div>
+    <div *ngIf="self" class="green">
+        <span>{{name}}: {{message}}</span>
+    </div>
+</div>

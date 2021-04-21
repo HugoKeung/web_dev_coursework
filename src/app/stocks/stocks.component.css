@@ -1,0 +1,46 @@
+.price{
+    text-align: center;
+    font-size: 40px;
+}
+.name{
+    font-size:20px;
+}
+.left_side{
+float:left;
+}
+.right_side{
+float:right;
+}
+.bottom{
+    margin-top: 10px;
+}
+.center_page{
+    margin:0 auto;
+    width:1000px;
+    height:100%;
+  
+}
+.add{
+    float:right;
+
+}
+.percent_change{
+    margin-top: 10px;
+    float:right;
+    font-size: small;
+}
+.positive{
+    color:green
+}
+.negative{
+    color:red
+}
+.notes{
+    height:300px;
+    width:500px;
+    display: inline-block;
+                               
+}
+.chart{
+    padding-top: 10px;
+}

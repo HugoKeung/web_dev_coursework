@@ -1,0 +1,12 @@
+.notepad{
+    height:250px;
+    width:400px;
+    overflow:auto;
+    float:right;
+    
+    
+}
+
+.input{
+    float:right;
+}

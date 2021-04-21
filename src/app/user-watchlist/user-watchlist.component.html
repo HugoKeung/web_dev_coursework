@@ -1,0 +1,5 @@
+<div class="container center_page" *ngIf='loaded'>
+    <app-user-watchlist-table *ngIf="!empty" (listUpdate)="watchlistUpdate($event)" [watchlist]=watchlist 
+    [displayedColumns]=displayedColumns class="middle"></app-user-watchlist-table>
+    <div *ngIf="empty" class="empty_warning">Watchlist is empty</div>
+</div>

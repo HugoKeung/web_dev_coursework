@@ -1,0 +1,43 @@
+<div class="page-body" *ngIf="loaded && valid" >
+
+    <div class="center_page">
+        <div class="left_side">
+            <div class="price">
+                {{this.ticker}}: ${{this.price}}
+                <div *ngIf="positive" class="percent_change positive">{{this.percent}}%<br>({{this.change}})</div>
+                <div *ngIf="!positive" class="percent_change negative">{{this.percent}}%<br>({{this.change}})</div>
+            </div>
+            
+            <div class="name">
+                {{this.fullName}}
+                <div class="add" (click)=addToWatchList()>
+                    <div *ngIf="!added">
+                        <img src="../assets/plus.png" width="30" height="30">
+                    </div>
+                    <div *ngIf="added">
+                        <img src="../assets/tick.png" width="30" height="30">
+                    </div>
+                </div>
+            </div>
+            <div class="filter">
+                 
+            </div>
+            <div class="chart" *ngIf="loaded">
+                <app-chart [chartdata]=chartdata [ticker]=ticker></app-chart>
+            </div>
+        </div>
+            <div class="right_side">
+            <div class="notes">
+                <app-notes [ticker]=ticker></app-notes>
+            </div>
+        </div>
+
+    
+        <div class="bottom">
+            <div class="news"></div>
+           <app-news [fullName]=fullName></app-news> 
+        </div>
+    </div>
+
+</div>
+

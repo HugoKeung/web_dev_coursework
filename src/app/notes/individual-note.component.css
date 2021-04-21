@@ -1,0 +1,27 @@
+.notes-display{
+  display: block;
+
+  text-indent: 2px;
+  display: block;
+  float: left;
+  background-color: lime;
+}
+span{
+  padding:2px;
+}
+
+.blue{
+    background-color: blue;
+    margin-top:10px;
+    width:70%;
+    float:left;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    width:70%;
+    float:right;
+    color: white;
+    margin-top:10px;
+}

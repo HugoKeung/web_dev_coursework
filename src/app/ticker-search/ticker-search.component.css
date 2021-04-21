@@ -1,0 +1,15 @@
+.searchbox{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid lightskyblue;
+    margin-top:10px;
+    color: white;
+    text-transform: uppercase;
+}
+.searchbutton{
+   background-color: green;
+   
+   margin: 0;
+   
+   
+}

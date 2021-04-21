@@ -1,0 +1,6 @@
+<div class="container news">
+    <div class="title">News</div>    
+    <div *ngFor= "let article of articles">
+        <app-individual-news [article]=article></app-individual-news>
+    </div>
+</div>

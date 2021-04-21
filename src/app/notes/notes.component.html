@@ -1,0 +1,12 @@
+
+<div class="container">
+    <div class="notepad" *ngIf="showNotes">
+        <app-individual-note [uid]=uid *ngFor = "let note of notes"
+            [note]=note>
+        </app-individual-note>
+        <br>
+    </div>
+    <div class="input">
+        <app-notes-input (postNote) = "noteUpdate($event)" [uid]=uid [ticker]=ticker></app-notes-input>
+    </div>
+</div>

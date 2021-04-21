@@ -1,0 +1,8 @@
+
+<form class="form-inline waves-light" (submit)="search(ticker)" mdbWavesEffect>
+  <div class="md-form mt-0">
+    <input class="searchbox" [(ngModel)]="ticker" name="ticker" type="text" placeholder="Search ticker..."  type="text" placeholder="Search">
+    
+  </div>
+  <button mdbBtn class="searchbutton" color="info" type="submit">Go</button>
+</form>
